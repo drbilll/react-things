@@ -3,7 +3,8 @@ import './App.css'
 import Bio from './Bio'
 import Gallery from './Gallery'
 import ToDoList from './ToDoList'
-import TodoList from './ToDoList'
+import TodoListBrace from './TodoListBrace'
+
 
 
 function App() {
@@ -16,6 +17,10 @@ function App() {
       <div>
         <ToDoList />
         <Bio />
+      </div>
+
+      <div>
+        <TodoListBrace />
       </div>
       
     </>

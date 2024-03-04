@@ -1,8 +1,11 @@
 
 import './App.css'
 import Bio from './Bio'
+import Copyright from './Copyright'
+import FancyText from './FancyText'
 import Gallery from './Gallery'
 import GetImageURL from './GetImageURL'
+import InspirationGenerator from './InspirationGenerator'
 import List from './List'
 import PackingList from './PackingList'
 import Profile1 from './Profile1'
@@ -48,6 +51,13 @@ function App() {
         imageId: 'MK3eW3A',
         name: 'Creola Katherine Johnson',
       }} />
+      </div>
+
+      <div>
+      <FancyText title text="Get Inspired App" />
+      <InspirationGenerator>
+        <Copyright year={2004} />
+      </InspirationGenerator>
       </div>
       
     </>

@@ -2,6 +2,8 @@
 import './App.css'
 import Bio from './Bio'
 import Gallery from './Gallery'
+import GetImageURL from './GetImageURL'
+import PackingList from './PackingList'
 import ToDoList from './ToDoList'
 import TodoListBrace from './TodoListBrace'
 
@@ -21,6 +23,14 @@ function App() {
 
       <div>
         <TodoListBrace />
+      </div>
+
+      <div>
+         <GetImageURL imageId='https://i.imgur.com/YfeOqp2s.jpg' />
+      </div>
+
+      <div>
+        <PackingList />
       </div>
       
     </>

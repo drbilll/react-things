@@ -11,6 +11,7 @@ import PackingList from './PackingList'
 import Profile1 from './Profile1'
 import ToDoList from './ToDoList'
 import TodoListBrace from './TodoListBrace'
+import Toolbar from './Toolbar'
 
 
 
@@ -54,11 +55,15 @@ function App() {
       </div>
 
       <div>
-      <FancyText title text="Get Inspired App" />
-      <InspirationGenerator>
-        <Copyright year={2004} />
-      </InspirationGenerator>
+        <FancyText title text="Get Inspired App" />
+        <InspirationGenerator>
+          <Copyright year={2004} />
+        </InspirationGenerator>
       </div>
+
+      <div>
+        <Toolbar />
+      </div>      
       
     </>
   )

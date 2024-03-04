@@ -5,6 +5,7 @@ import Gallery from './Gallery'
 import GetImageURL from './GetImageURL'
 import List from './List'
 import PackingList from './PackingList'
+import Profile1 from './Profile1'
 import ToDoList from './ToDoList'
 import TodoListBrace from './TodoListBrace'
 
@@ -12,7 +13,7 @@ import TodoListBrace from './TodoListBrace'
 
 function App() {
   return (
-    <>
+    <> 
       <div>
         <Gallery />
       </div>
@@ -36,6 +37,17 @@ function App() {
 
       <div>
         <List />
+      </div>
+
+      <div>
+      <Profile1 person={{
+        imageId: 'lrWQx8l',
+        name: 'Subrahmanyan Chandrasekhar',
+      }} />
+      <Profile1 person={{
+        imageId: 'MK3eW3A',
+        name: 'Creola Katherine Johnson',
+      }} />
       </div>
       
     </>

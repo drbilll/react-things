@@ -5,6 +5,7 @@ import Copyright from './Copyright'
 import FancyText from './FancyText'
 import Gallery from './Gallery'
 import Gallery1 from './Gallery1'
+import Gallery2 from './Gallery2'
 import GetImageURL from './GetImageURL'
 import InspirationGenerator from './InspirationGenerator'
 import List from './List'
@@ -78,6 +79,11 @@ function App() {
       <div>
         <br/><h2>Branch 11</h2>
         <Gallery1 />
+      </div>
+
+      <div>
+        <br/><h2>Branch 12</h2>
+        <Gallery2 />
       </div>
       
     </>

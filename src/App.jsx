@@ -5,6 +5,7 @@ import Copyright from './Copyright'
 import Counter from './Counter'
 import Counter1 from './Counter1'
 import FancyText from './FancyText'
+import Form from './Form'
 import Gallery from './Gallery'
 import Gallery1 from './Gallery1'
 import Gallery2 from './Gallery2'
@@ -98,6 +99,11 @@ function App() {
         <Counter1 />
       </div>
       
+      <div>
+        <br/><h2>Branch-- 15</h2>
+        <Form />
+      </div>
+
     </>
   )
 }

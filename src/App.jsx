@@ -12,6 +12,7 @@ import Gallery2 from './Gallery2'
 import GetImageURL from './GetImageURL'
 import InspirationGenerator from './InspirationGenerator'
 import List from './List'
+import List1 from './List1'
 import PackingList from './PackingList'
 import Profile1 from './Profile1'
 import ToDoList from './ToDoList'
@@ -102,6 +103,11 @@ function App() {
       <div>
         <br/><h2>Branch-- 15</h2>
         <Form />
+      </div>
+
+      <div>
+        <br/><h2>Branch 16</h2>
+        <List1 />
       </div>
 
     </>

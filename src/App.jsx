@@ -3,6 +3,7 @@ import './App.css'
 import Bio from './Bio'
 import Copyright from './Copyright'
 import Counter from './Counter'
+import Counter1 from './Counter1'
 import FancyText from './FancyText'
 import Gallery from './Gallery'
 import Gallery1 from './Gallery1'
@@ -90,6 +91,11 @@ function App() {
       <div>
         <br/><h2>Branch 13</h2>
         <Counter />
+      </div>
+
+      <div>
+        <br/><h2>Branch 14</h2>
+        <Counter1 />
       </div>
       
     </>

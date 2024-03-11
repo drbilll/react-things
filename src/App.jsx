@@ -1,11 +1,13 @@
 
 import './App.css'
+import AppC2 from './AppC2'
 import Bio from './Bio'
 import Copyright from './Copyright'
 import FancyText from './FancyText'
 import Gallery from './Gallery'
 import GetImageURL from './GetImageURL'
 import InspirationGenerator from './InspirationGenerator'
+import LightSwitch from './LightSwitch'
 import List from './List'
 import PackingList from './PackingList'
 import Profile1 from './Profile1'
@@ -63,6 +65,10 @@ function App() {
 
       <div>
         <Toolbar />
+        <h2>10-Responding-to-Events-Challenge1</h2>
+        <LightSwitch />
+        <h2>10-Responding-to-Events-Challenge2</h2>
+        <AppC2 />
       </div>      
       
     </>

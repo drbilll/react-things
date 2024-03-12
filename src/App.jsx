@@ -1,5 +1,6 @@
 
 import './App.css'
+import AppCl2 from './AppCl2'
 import Bio from './Bio'
 import Copyright from './Copyright'
 import Counter from './Counter'
@@ -13,6 +14,7 @@ import InspirationGenerator from './InspirationGenerator'
 import List from './List'
 import PackingList from './PackingList'
 import Profile1 from './Profile1'
+import RequestTracker from './RequestTracker'
 import ToDoList from './ToDoList'
 import TodoListBrace from './TodoListBrace'
 import Toolbar from './Toolbar'
@@ -96,6 +98,10 @@ function App() {
       <div>
         <br/><h2>Branch 14</h2>
         <Counter1 />
+        <h2>Challenge1</h2>
+        <RequestTracker />
+        <h2>Challenge2  </h2>
+        <AppCl2 />
       </div>
       
     </>

@@ -3,8 +3,12 @@ import './App.css'
 import Bio from './Bio'
 import Copyright from './Copyright'
 import FancyText from './FancyText'
+import FeedbackForm from './FeedbackForm'
+import FeedbackFormC4 from './FeedbackFormC4'
+import Form from './Form'
 import Gallery from './Gallery'
 import Gallery1 from './Gallery1'
+import GallerySculpture from './GallerySculpture'
 import GetImageURL from './GetImageURL'
 import InspirationGenerator from './InspirationGenerator'
 import List from './List'
@@ -77,7 +81,14 @@ function App() {
 
       <div>
         <br/><h2>Branch 11</h2>
-        <Gallery1 />
+        <h2>Challenge 1</h2>
+        <GallerySculpture />
+        <h2>Challenge 2</h2>
+        <Form />
+        <h2>Challenge 3</h2>
+        <FeedbackForm />
+        <h2>Challenge 4</h2>
+        <FeedbackFormC4 />
       </div>
       
     </>

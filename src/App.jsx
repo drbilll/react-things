@@ -23,6 +23,7 @@ import RequestTracker from './RequestTracker'
 import ToDoList from './ToDoList'
 import TodoListBrace from './TodoListBrace'
 import Toolbar from './Toolbar'
+import TrafficLight from './TrafficLight'
 
 
 
@@ -101,7 +102,8 @@ function App() {
 
       <div>
         <br/><h2>Branch 13</h2>
-        <Counter />
+        <h2>Challenge 1</h2>
+        <TrafficLight />
       </div>
 
       <div>

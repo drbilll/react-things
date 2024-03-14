@@ -1,5 +1,6 @@
 
 import './App.css'
+import AppC2 from './AppC2'
 import Bio from './Bio'
 import Canvas from './Canvas'
 import CanvasC3 from './CanvasC3'
@@ -13,10 +14,12 @@ import Gallery1 from './Gallery1'
 import Gallery2 from './Gallery2'
 import GetImageURL from './GetImageURL'
 import InspirationGenerator from './InspirationGenerator'
+import LightSwitch from './LightSwitch'
 import List from './List'
 import PackingList from './PackingList'
 import Profile1 from './Profile1'
 import Scoreboard from './Scoreboard'
+import RequestTracker from './RequestTracker'
 import ToDoList from './ToDoList'
 import TodoListBrace from './TodoListBrace'
 import Toolbar from './Toolbar'
@@ -80,6 +83,10 @@ function App() {
       <div>
         <br/><h2>Branch 10</h2>
         <Toolbar />
+        <h2>10-Responding-to-Events-Challenge1</h2>
+        <LightSwitch />
+        <h2>10-Responding-to-Events-Challenge2</h2>
+        <AppC2 />
       </div>      
 
       <div>
@@ -100,6 +107,10 @@ function App() {
       <div>
         <br/><h2>Branch 14</h2>
         <Counter1 />
+        <h2>Challenge1</h2>
+        <RequestTracker />
+        <h2>Challenge2  </h2>
+        <AppCl2 />
       </div>
       
       <div>
@@ -114,8 +125,21 @@ function App() {
         <CanvasC3 />
       </div>
 
+
     </>
   )
+}
+
+
+function useTime() {
+  const [time, setTime] = useState(() => new Date());
+  useEffect(() => {
+    const id = setInterval(() => {
+      setTime(new Date());
+    }, 1000);
+    return () => clearInterval(id);
+  }, []);
+  return time;
 }
 
 export default App

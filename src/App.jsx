@@ -2,10 +2,13 @@
 import './App.css'
 import AppC2 from './AppC2'
 import Bio from './Bio'
+import Canvas from './Canvas'
+import CanvasC3 from './CanvasC3'
 import Copyright from './Copyright'
 import Counter from './Counter'
 import Counter1 from './Counter1'
 import FancyText from './FancyText'
+import Form from './Form'
 import Gallery from './Gallery'
 import Gallery1 from './Gallery1'
 import Gallery2 from './Gallery2'
@@ -15,6 +18,7 @@ import LightSwitch from './LightSwitch'
 import List from './List'
 import PackingList from './PackingList'
 import Profile1 from './Profile1'
+import Scoreboard from './Scoreboard'
 import RequestTracker from './RequestTracker'
 import ToDoList from './ToDoList'
 import TodoListBrace from './TodoListBrace'
@@ -108,9 +112,20 @@ function App() {
         <h2>Challenge2  </h2>
         <AppCl2 />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      
+      <div>
+        <br/><h2>Branch 15</h2>
+        <h2>Challenge 1</h2>
+        <Scoreboard />
+        <hr />
+        <h2>Challenge 2</h2>
+        <Canvas /><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <hr />
+        <h2>Challenge 3 </h2>
+        <CanvasC3 />
+      </div>
+
+
     </>
   )
 }

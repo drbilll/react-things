@@ -1,6 +1,6 @@
 
 import './App.css'
-import AppCl2 from './AppCl2'
+import AppC2 from './AppC2'
 import Bio from './Bio'
 import Copyright from './Copyright'
 import Counter from './Counter'
@@ -11,6 +11,7 @@ import Gallery1 from './Gallery1'
 import Gallery2 from './Gallery2'
 import GetImageURL from './GetImageURL'
 import InspirationGenerator from './InspirationGenerator'
+import LightSwitch from './LightSwitch'
 import List from './List'
 import PackingList from './PackingList'
 import Profile1 from './Profile1'
@@ -78,6 +79,10 @@ function App() {
       <div>
         <br/><h2>Branch 10</h2>
         <Toolbar />
+        <h2>10-Responding-to-Events-Challenge1</h2>
+        <LightSwitch />
+        <h2>10-Responding-to-Events-Challenge2</h2>
+        <AppC2 />
       </div>      
 
       <div>

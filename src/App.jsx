@@ -15,6 +15,10 @@ import List from './List'
 import List1 from './List1'
 import PackingList from './PackingList'
 import Profile1 from './Profile1'
+import ShoppingCart from './ShoppingCart'
+import ShoppingCartC2 from './ShoppingCartC2'
+import TaskApp from './TaskApp'
+import TaskAppImmer from './TaskAppImmer'
 import ToDoList from './ToDoList'
 import TodoListBrace from './TodoListBrace'
 import Toolbar from './Toolbar'
@@ -107,7 +111,14 @@ function App() {
 
       <div>
         <br/><h2>Branch 16</h2>
-        <List1 />
+          <h2>Challenge 1</h2>
+          <ShoppingCart />
+          <h2>Challenge 2</h2>
+          <ShoppingCartC2 />
+          <h2>Challenge 3</h2>
+          <TaskApp />
+          <h2>Challenge 4</h2>
+          <TaskAppImmer />
       </div>
 
     </>

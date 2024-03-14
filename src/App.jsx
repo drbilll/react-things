@@ -1,6 +1,8 @@
 
 import './App.css'
 import Bio from './Bio'
+import Canvas from './Canvas'
+import CanvasC3 from './CanvasC3'
 import Copyright from './Copyright'
 import Counter from './Counter'
 import Counter1 from './Counter1'
@@ -14,6 +16,7 @@ import InspirationGenerator from './InspirationGenerator'
 import List from './List'
 import PackingList from './PackingList'
 import Profile1 from './Profile1'
+import Scoreboard from './Scoreboard'
 import ToDoList from './ToDoList'
 import TodoListBrace from './TodoListBrace'
 import Toolbar from './Toolbar'
@@ -100,8 +103,15 @@ function App() {
       </div>
       
       <div>
-        <br/><h2>Branch-- 15</h2>
-        <Form />
+        <br/><h2>Branch 15</h2>
+        <h2>Challenge 1</h2>
+        <Scoreboard />
+        <hr />
+        <h2>Challenge 2</h2>
+        <Canvas /><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <hr />
+        <h2>Challenge 3 </h2>
+        <CanvasC3 />
       </div>
 
     </>

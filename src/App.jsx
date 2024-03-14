@@ -1,6 +1,9 @@
 
 import './App.css'
+import AppC2 from './AppC2'
 import Bio from './Bio'
+import Canvas from './Canvas'
+import CanvasC3 from './CanvasC3'
 import Copyright from './Copyright'
 import Counter from './Counter'
 import Counter1 from './Counter1'
@@ -11,6 +14,7 @@ import Gallery1 from './Gallery1'
 import Gallery2 from './Gallery2'
 import GetImageURL from './GetImageURL'
 import InspirationGenerator from './InspirationGenerator'
+import LightSwitch from './LightSwitch'
 import List from './List'
 import List1 from './List1'
 import PackingList from './PackingList'
@@ -19,9 +23,12 @@ import ShoppingCart from './ShoppingCart'
 import ShoppingCartC2 from './ShoppingCartC2'
 import TaskApp from './TaskApp'
 import TaskAppImmer from './TaskAppImmer'
+import Scoreboard from './Scoreboard'
+import RequestTracker from './RequestTracker'
 import ToDoList from './ToDoList'
 import TodoListBrace from './TodoListBrace'
 import Toolbar from './Toolbar'
+import TrafficLight from './TrafficLight'
 
 
 
@@ -82,6 +89,10 @@ function App() {
       <div>
         <br/><h2>Branch 10</h2>
         <Toolbar />
+        <h2>10-Responding-to-Events-Challenge1</h2>
+        <LightSwitch />
+        <h2>10-Responding-to-Events-Challenge2</h2>
+        <AppC2 />
       </div>      
 
       <div>
@@ -96,19 +107,30 @@ function App() {
 
       <div>
         <br/><h2>Branch 13</h2>
-        <Counter />
+        <h2>Challenge 1</h2>
+        <TrafficLight />
       </div>
 
       <div>
         <br/><h2>Branch 14</h2>
         <Counter1 />
+        <h2>Challenge1</h2>
+        <RequestTracker />
+        <h2>Challenge2  </h2>
+        <AppCl2 />
       </div>
       
       <div>
-        <br/><h2>Branch-- 15</h2>
-        <Form />
+        <br/><h2>Branch 15</h2>
+        <h2>Challenge 1</h2>
+        <Scoreboard />
+        <hr />
+        <h2>Challenge 2</h2>
+        <Canvas /><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <hr />
+        <h2>Challenge 3 </h2>
+        <CanvasC3 />
       </div>
-
       <div>
         <br/><h2>Branch 16</h2>
           <h2>Challenge 1</h2>
@@ -121,8 +143,21 @@ function App() {
           <TaskAppImmer />
       </div>
 
+
     </>
   )
+}
+
+
+function useTime() {
+  const [time, setTime] = useState(() => new Date());
+  useEffect(() => {
+    const id = setInterval(() => {
+      setTime(new Date());
+    }, 1000);
+    return () => clearInterval(id);
+  }, []);
+  return time;
 }
 
 export default App
